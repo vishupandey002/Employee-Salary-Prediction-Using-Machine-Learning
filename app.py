@@ -78,13 +78,7 @@ div[data-testid="stButton"] button:hover{
     color:gray;
     margin-top:60px;
 }
-left_btn, center_btn, right_btn = st.columns([1, 2, 1])
 
-with center_btn:
-    predict = st.button(
-        "💰 Predict Salary",
-        use_container_width=True
-    )
 </style>
 """, unsafe_allow_html=True)
 
